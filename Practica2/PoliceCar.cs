@@ -14,9 +14,10 @@
         {
             isPatrolling = false;
             speedRadar = new SpeedRadar();
+            policeStation = new PoliceStation();
         }
 
-        public void UseRadar(Vehicle vehicle)
+        public void UseRadar(VehicleWithPlate vehicle)
         {
             if (isPatrolling)
             {
@@ -26,7 +27,7 @@
                 bool aboveLegalSpeed = result[0];
                 if (aboveLegalSpeed) 
                 { 
-                    StartChasing(); 
+                    NewInfractor(vehicle.GetPlate()); 
                     policeStation.ReveiveAlert(vehicle.GetPlate());
                 }
             }
@@ -72,8 +73,8 @@
         public void StopChasing()
             { isChasing = false; }
 
-        //public void SetInfractorPlate(string plate)
-        //    { infractorPlate = plate; }
+        public void SetInfractorPlate(string plate)
+        { infractorPlate = plate; }
         public void NewInfractor(string plate)
         {
             StartChasing();

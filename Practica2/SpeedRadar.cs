@@ -1,6 +1,6 @@
 ﻿namespace Practice1
 {
-    class SpeedRadar : IMessageWritter
+    class SpeedRadar : MeasurementTool
     {
         //Radar doesn't know about Vechicles, just speed and plates
         private string plate;
