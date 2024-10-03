@@ -6,33 +6,44 @@
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
         private SpeedRadar speedRadar;
-        private bool isChasing = false;
+        private bool isChasing;
         private string infractorPlate;
         private PoliceStation policeStation;
 
-        public PoliceCar(string plate) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, bool radar) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
-            speedRadar = new SpeedRadar();
+            isChasing = false;
             policeStation = new PoliceStation();
+            infractorPlate = string.Empty;
+            if (radar)
+                { speedRadar = new SpeedRadar(); }
+            else
+                { speedRadar = null; }
         }
 
         public void UseRadar(VehicleWithPlate vehicle)
         {
-            if (isPatrolling)
-            {
-                speedRadar.TriggerRadar(vehicle);
-                List<bool, string> result = speedRadar.GetLastReading();
-                Console.WriteLine(WriteMessage($"Triggered radar. Result: {result[1]}"));
-                bool aboveLegalSpeed = result[0];
-                if (aboveLegalSpeed) 
-                { 
-                    NewInfractor(vehicle.GetPlate()); 
-                    policeStation.ReveiveAlert(vehicle.GetPlate());
+            if (speedRadar != null)
+                {
+                    if (isPatrolling)
+                    {
+                        speedRadar.TriggerRadar(vehicle);
+                        List<bool, string> result = speedRadar.GetLastReading();
+                        Console.WriteLine(WriteMessage($"Triggered radar. Result: {result[1]}"));
+                        bool aboveLegalSpeed = result[0];
+
+                        if (aboveLegalSpeed)
+                        {
+                            NewInfractor(vehicle.GetPlate());
+                            policeStation.ReceiveAlert(vehicle.GetPlate());
+                        }
+                    }
+                    else
+                        { Console.WriteLine(WriteMessage($"has no active radar.")); }
                 }
-            }
             else
-                { Console.WriteLine(WriteMessage($"has no active radar.")); }
+                { Console.WriteLine(WriteMessage($"has no radar.")); }
         }
 
         public bool IsPatrolling()
@@ -46,7 +57,7 @@
                 Console.WriteLine(WriteMessage("started patrolling."));
             }
             else
-                {Console.WriteLine(WriteMessage("is already patrolling."));}
+                { Console.WriteLine(WriteMessage("is already patrolling.")); }
         }
 
         public void EndPatrolling()
@@ -57,24 +68,46 @@
                 Console.WriteLine(WriteMessage("stopped patrolling."));
             }
             else
-                {Console.WriteLine(WriteMessage("was not patrolling."));}
+                { Console.WriteLine(WriteMessage("was not patrolling.")); }
         }
 
         public void PrintRadarHistory()
         {
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
-                { Console.WriteLine(speed); }
+            if (speedRadar != null)
+            {
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.SpeedHistory)
+                    { Console.WriteLine(speed); }
+            }
+            else
+                { Console.WriteLine(WriteMessage("This police car has no radar")); }
         }
 
         public void StartChasing()
-            { isChasing = true; }
+        {
+            if (!isChasing)
+            {
+                isChasing = true;
+                Console.WriteLine(WriteMessage("started chasing a vehicle."));
+            }
+            else
+                { Console.WriteLine(WriteMessage($"is already chasing a vehicle with plate {infractorPlate}.")); }
+        }
 
         public void StopChasing()
-            { isChasing = false; }
+        {
+            if (isChasing)
+            {
+                isChasing = false;
+                Console.WriteLine(WriteMessage($"stopped chasing the vehicle with plate {infractorPlate}."));
+            }
+            else
+                { Console.WriteLine(WriteMessage("was not chasing a vehicle.")); }
+        }
 
         public void SetInfractorPlate(string plate)
-        { infractorPlate = plate; }
+            { infractorPlate = plate; }
+
         public void NewInfractor(string plate)
         {
             StartChasing();

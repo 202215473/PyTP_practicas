@@ -2,7 +2,7 @@
 
 public class Scooter : VehicleWithoutPlate
 {
-	public Scooter()
+	public Scooter() : base(typeOfVehicle)
 	{
 	}
 }

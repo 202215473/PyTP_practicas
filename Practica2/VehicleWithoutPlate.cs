@@ -3,7 +3,7 @@
     abstract class VehicleWithoutPlate : Vehicle
     {
 
-        public VehicleWithoutPlate()
+        public VehicleWithoutPlate() : base(typeOfVehicle)
         {
             
         }

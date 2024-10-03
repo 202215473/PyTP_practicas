@@ -8,8 +8,13 @@
 
 		public City()
 		{
-
+			policeStation = new PoliceStation();
 		}
+		
 		public void RegisterTaxiLicense(string license)
-	}
+			{ taxiLicenses.Add(license); }
+
+        public void RemoveTaxiLicense(string license)
+			{ taxiLicenses.Remove(license); }
+    }
 }
