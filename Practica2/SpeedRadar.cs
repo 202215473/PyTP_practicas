@@ -22,15 +22,15 @@
             SpeedHistory.Add(speed);
         }
         
-        public string GetLastReading()
+        public List<bool,string> GetLastReading()
         {
             if (speed > legalSpeed)
             {
-                return WriteMessage("Catched above legal speed.");
+                return [true, WriteMessage("Catched above legal speed.")];
             }
             else
             {
-                return WriteMessage("Driving legally.");
+                return [false, WriteMessage("Driving legally.")];
             }
         }
 

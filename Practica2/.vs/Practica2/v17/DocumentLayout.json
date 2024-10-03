@@ -1,30 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\",
+  "WorkspaceRootPath": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\SpeedRadar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SpeedRadar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\PoliceStation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PoliceStation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\Vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\PoliceCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\PoliceCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PoliceCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\Taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\VehicleWithPlate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VehicleWithPlate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\SpeedRadar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SpeedRadar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\Vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\Taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\IMessageWritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMessageWritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\VehicleWithoutPlate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VehicleWithoutPlate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\IMessageWritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMessageWritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,47 +51,74 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SpeedRadar.cs",
-              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\SpeedRadar.cs",
-              "RelativeDocumentMoniker": "SpeedRadar.cs",
-              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\SpeedRadar.cs",
-              "RelativeToolTip": "SpeedRadar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PoliceStation.cs",
+              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\PoliceStation.cs",
+              "RelativeDocumentMoniker": "PoliceStation.cs",
+              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\PoliceStation.cs",
+              "RelativeToolTip": "PoliceStation.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T17:42:03.619Z",
+              "WhenOpened": "2024-10-03T08:30:37.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehicleWithPlate.cs",
+              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\VehicleWithPlate.cs",
+              "RelativeDocumentMoniker": "VehicleWithPlate.cs",
+              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\VehicleWithPlate.cs",
+              "RelativeToolTip": "VehicleWithPlate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:06:21.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehicleWithoutPlate.cs",
+              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\VehicleWithoutPlate.cs",
+              "RelativeDocumentMoniker": "VehicleWithoutPlate.cs",
+              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\VehicleWithoutPlate.cs",
+              "RelativeToolTip": "VehicleWithoutPlate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:03:52.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T17:37:21.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\Vehicle.cs",
-              "RelativeDocumentMoniker": "Vehicle.cs",
-              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\Vehicle.cs",
-              "RelativeToolTip": "Vehicle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T17:37:21.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PoliceCar.cs",
-              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\PoliceCar.cs",
+              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\PoliceCar.cs",
               "RelativeDocumentMoniker": "PoliceCar.cs",
-              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\PoliceCar.cs",
+              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\PoliceCar.cs",
               "RelativeToolTip": "PoliceCar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T17:27:03.64Z"
+              "WhenOpened": "2024-10-01T17:27:03.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "IMessageWritter.cs",
-              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\IMessageWritter.cs",
+              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\IMessageWritter.cs",
               "RelativeDocumentMoniker": "IMessageWritter.cs",
-              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\IMessageWritter.cs",
+              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\IMessageWritter.cs",
               "RelativeToolTip": "IMessageWritter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,25 +126,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Taxi.cs",
-              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\Taxi.cs",
+              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\Taxi.cs",
               "RelativeDocumentMoniker": "Taxi.cs",
-              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\Taxi.cs",
+              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\Taxi.cs",
               "RelativeToolTip": "Taxi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T14:51:33.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "SpeedRadar.cs",
+              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\SpeedRadar.cs",
+              "RelativeDocumentMoniker": "SpeedRadar.cs",
+              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\SpeedRadar.cs",
+              "RelativeToolTip": "SpeedRadar.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T17:42:03.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\Practica2\\Main.cs",
+              "ToolTip": "C:\\Users\\sofin\\Desktop\\3\u00BA iMAT\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Pr\u00E1cticas\\PyTP_practicas_github\\PyTP_practicas\\Practica2\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAAA0AAAAAMzMzMzMLwCYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T14:50:14.968Z"
             }
