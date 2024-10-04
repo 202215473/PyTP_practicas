@@ -34,3 +34,10 @@ C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Práctic
 C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\obj\Debug\net8.0\Practice1.dll
 C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\obj\Debug\net8.0\refint\Practice1.dll
 C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\obj\Debug\net8.0\Practice1.pdb
+C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\bin\Debug\net8.0\Practice1.exe
+C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\bin\Debug\net8.0\Practice1.deps.json
+C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\bin\Debug\net8.0\Practice1.runtimeconfig.json
+C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\bin\Debug\net8.0\Practice1.dll
+C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\bin\Debug\net8.0\Practice1.pdb
+C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\obj\Debug\net8.0\Practice1.genruntimeconfig.cache
+C:\Users\sofin\Desktop\3º iMAT\Paradigmas y Técnicas de Programación\Prácticas\PyTP_practicas_github\PyTP_practicas\Practica2\obj\Debug\net8.0\ref\Practice1.dll

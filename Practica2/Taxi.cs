@@ -6,7 +6,7 @@
         private const string typeOfVehicle = "Taxi";
         private bool isCarryingPassengers;
 
-        public Taxi(string plate) : base(typeOfVehicle, plate)
+        public Taxi(string plate) : base("Taxi", plate)
         {
             //Values of atributes are set just when the instance is done if not needed before.
             isCarryingPassengers = false;

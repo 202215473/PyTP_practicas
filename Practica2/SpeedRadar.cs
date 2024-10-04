@@ -1,6 +1,6 @@
 ﻿namespace Practice1
 {
-    class SpeedRadar : MeasurementTool
+    class SpeedRadar : IMessageWritter
     {
         //Radar doesn't know about Vechicles, just speed and plates
         private string plate;
@@ -15,23 +15,18 @@
             SpeedHistory = new List<float>();
         }
 
-        public void TriggerRadar(Vehicle vehicle)
+        public void TriggerRadar(VehicleWithPlate vehicle)
         {
             plate = vehicle.GetPlate();
             speed = vehicle.GetSpeed();
             SpeedHistory.Add(speed);
         }
         
-        public List<bool,string> GetLastReading()
+        public Tuple<bool,string> GetLastReading()
         {
-            if (speed > legalSpeed)
-            {
-                return [true, WriteMessage("Catched above legal speed.")];
-            }
-            else
-            {
-                return [false, WriteMessage("Driving legally.")];
-            }
+            return speed > legalSpeed
+                ? new Tuple<bool, string>(true, "Catched above legal speed.")
+                : new Tuple<bool, string>(false, "Driving legally.");
         }
 
         public virtual string WriteMessage(string radarReading)

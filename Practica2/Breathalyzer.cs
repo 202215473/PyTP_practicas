@@ -1,10 +1,10 @@
-﻿namespace Practice1
+﻿//namespace Practice1
 
-{
-	public class Breathalyzer : MeassurementTool
-	{
-		public Breathalyzer()
-		{
-		}
-	}
-}
+//{
+//	public class Breathalyzer : MeassurementTool
+//	{
+//		public Breathalyzer()
+//		{
+//		}
+//	}
+//}

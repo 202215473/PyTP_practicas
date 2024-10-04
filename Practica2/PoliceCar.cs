@@ -10,16 +10,13 @@
         private string infractorPlate;
         private PoliceStation policeStation;
 
-        public PoliceCar(string plate, bool radar) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, bool radar) : base("Police Car", plate)
         {
             isPatrolling = false;
             isChasing = false;
             policeStation = new PoliceStation();
             infractorPlate = string.Empty;
-            if (radar)
-                { speedRadar = new SpeedRadar(); }
-            else
-                { speedRadar = null; }
+            speedRadar = radar ? new SpeedRadar() : null;
         }
 
         public void UseRadar(VehicleWithPlate vehicle)
@@ -29,10 +26,10 @@
                     if (isPatrolling)
                     {
                         speedRadar.TriggerRadar(vehicle);
-                        List<bool, string> result = speedRadar.GetLastReading();
-                        Console.WriteLine(WriteMessage($"Triggered radar. Result: {result[1]}"));
-                        bool aboveLegalSpeed = result[0];
-
+                        var result = speedRadar.GetLastReading();
+                        bool aboveLegalSpeed = result.Item1;
+                        string message = result.Item2;
+                        Console.WriteLine(WriteMessage($"Triggered radar. Result: {message}"));
                         if (aboveLegalSpeed)
                         {
                             NewInfractor(vehicle.GetPlate());
@@ -82,6 +79,9 @@
             else
                 { Console.WriteLine(WriteMessage("This police car has no radar")); }
         }
+
+        public bool IsChasing()
+            { return isChasing; }
 
         public void StartChasing()
         {

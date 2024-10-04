@@ -1,10 +1,10 @@
-﻿namespace Practice1
+﻿//namespace Practice1
 
-{
-	abstract class MeasurementTool : IMessageWritter
-	{
-		public MeasurementTool()
-		{
-		}
-	}
-}
+//{
+//	abstract class MeasurementTool : IMessageWritter
+//	{
+//		public MeasurementTool()
+//		{
+//		}
+//	}
+//}

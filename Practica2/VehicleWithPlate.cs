@@ -2,9 +2,9 @@
 {
     abstract class VehicleWithPlate: Vehicle
     {
-        private string plate;
+        protected string plate;
 
-        public VehicleWithPlate(string plate) : base(typeOfVehicle)
+        public VehicleWithPlate(string typeOfVehicle, string plate) : base(typeOfVehicle)
         {
             this.plate = plate;
         }
@@ -17,7 +17,7 @@
 
         public string GetPlate()
         {
-            return plate;
+            return this.plate;
         }
     }
 }

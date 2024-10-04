@@ -1,8 +1,12 @@
 ﻿namespace Practice1
 
-public class Scooter : VehicleWithoutPlate
 {
-	public Scooter() : base(typeOfVehicle)
+	class Scooter : VehicleWithoutPlate
 	{
+		private const string typeOfVehicle = "Scooter";
+
+		public Scooter() : base("Scooter")
+		{
+		}
 	}
 }

@@ -2,7 +2,7 @@
 {
     abstract class Vehicle : IMessageWritter
     {
-        private string typeOfVehicle;
+        protected string typeOfVehicle;  // para que clases hijas puedan acceder a él
         private float speed;
 
         public Vehicle(string typeOfVehicle)

@@ -8,10 +8,13 @@
 		public PoliceStation()
 		{
 			alert = false;
-		}
+			listPoliceCars = new List<PoliceCar>();
+        }
 
-        public void SetNewCar(string newPlate)
-        { listPoliceCars.Add(newPlate); }
+        public void SetNewCar(string newPlate, bool withRadar)
+        { 
+			listPoliceCars.Add(new PoliceCar(newPlate, withRadar)); 
+		}
 
         public void SetAlert(bool value)
 			{ alert = value; }
@@ -33,5 +36,8 @@
 			NotifyPlate(plate);
 			SetAlert(false);  // So that there is not always an alert
 		}
+
+		public virtual string WriteMessage(string message)
+			{ return $"{this}: {message}"; }
 	}
 }
