@@ -12,24 +12,16 @@
         }
 
         public string GetTypeOfVehicle()
-        {
-            return typeOfVehicle;
-        }
+            { return typeOfVehicle; }
 
         public float GetSpeed()
-        {
-            return speed;
-        }
+            { return speed; }
 
         public void SetSpeed(float speed)
-        {
-            this.speed = speed;
-        }
+            { this.speed = speed; }
 
         //Implment interface with Vechicle message structure
         public string WriteMessage(string message)
-        {
-            return $"{this}: {message}";
-        }
+            { return $"{this}: {message}"; }
     }
 }

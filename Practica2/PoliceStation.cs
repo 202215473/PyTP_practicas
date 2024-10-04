@@ -18,10 +18,7 @@
 
         public void SetAlert(bool value)
 			{ alert = value; }
-		//public bool GetAlert()
-		//	{ return alert; }
 
-		
 		public void NotifyPlate(string plate)
 		{
 			for (int i = 0; i < listPoliceCars.Count; i++)
